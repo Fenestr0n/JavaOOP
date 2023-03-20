@@ -13,12 +13,13 @@ public class Main {
     public static void main(String[] args) {
         VendingMachine1 vm = new VendingMachine1();
         List<BottleOfWater> bw = new ArrayList<>(Arrays.asList(
-        new BottleOfWater("Coca-cola", 65),
-        new BottleOfWater("Sprite", 76),
-        new BottleOfWater("Pepsi", 68),
-        new BottleOfWater("Fanta", 90)));
+        new BottleOfWater("Pepsi", 42),
+        new BottleOfWater("Sprite", 67),
+        new BottleOfWater("Cola", 70),
+        new BottleOfWater("Sprite", 40),
+        new BottleOfWater("Sprite", 150)));
 
         vm.initProduct(bw);
-        System.out.println(vm.getProduct("Fanta").toString());
+        System.out.println(vm.getProduct("Sprite", 70));
     }
 }

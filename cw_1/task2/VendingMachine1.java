@@ -19,4 +19,17 @@ public class VendingMachine1 extends VendingMachine{
     }
 
     
+    String getProduct(String name, int maxPrice) {
+        
+        List<BottleOfWater> bottleOfWatersList = new ArrayList<>();
+        
+        for (BottleOfWater bw : bottleOfWaters) {
+            if (bw.getName().contains(name) && (bw.getPrice() <= maxPrice)) {
+                bottleOfWatersList.add(bw);
+            }
+        }
+        return bottleOfWaters.toString();
+    }
+
+    
 }

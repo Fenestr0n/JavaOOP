@@ -11,7 +11,7 @@ public class BottleOfWater extends Product{
 
     @Override
     public String toString() {
-        return "BottleOfWater [name=" + name + ", price=" + price + "]";
+        return "BottleOfWater [name=" + name + ", price=" + price + "]\n";
     }
 
     public String getName() {
