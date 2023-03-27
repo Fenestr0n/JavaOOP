@@ -1,4 +1,4 @@
-package cw_2.task4;
+package hw_2;
 
 import java.util.ArrayDeque;
 import java.util.ArrayList;
@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Queue;
 
 import cw_2.task3.Buyer;
-import cw_2.task3.Human;
+
 
 public class Market implements MarketBehaviour, QueueBehaviour{
 

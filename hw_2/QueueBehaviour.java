@@ -1,4 +1,4 @@
-package cw_2.task4;
+package hw_2;
 
 import cw_2.task3.Buyer;
 
